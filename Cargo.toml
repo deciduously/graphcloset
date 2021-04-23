@@ -1,0 +1,18 @@
+[package]
+authors = ["Ben Lovy <ben@deciduously.com>", "Marisa Sileo <marisa.sileo@gmail.com>"]
+description = "A library and CLI for creating plots and graphs."
+edition = "2018"
+license = "BSD-3-Clause"
+name = "graphcloset"
+repository = "https://github.com/deciduously/graphcloset"
+version = "0.0.1"
+
+[dependencies]
+anyhow = "1.0"
+lazy_static = "1.4"
+regex = "1.4"
+structopt = "0.3"
+
+[dev-dependencies]
+
+pretty_assertions = "0.7"
